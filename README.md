@@ -9,9 +9,11 @@ with a much smaller footprint. It achieves that by basing itself off the great
 
 ```bash
 $ docker images
-REPOSITORY          TAG         VIRTUAL SIZE
-alpine-postgres     latest      22.28 MB
-postgres            latest      213.90 MB
+REPOSITORY          TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
+alpine-postgres     latest              82d0ddb748fd        About an hour ago   23.87 MB
+gliderlabs/alpine   3.3                 1e46923a8af6        12 days ago         4.794 MB
+percona             latest              70588d0c4cd4        4 weeks ago         308.6 MB
+postgres            latest              6d6a71f8528e        4 weeks ago         265.1 MB
 ```
 
 # Build
