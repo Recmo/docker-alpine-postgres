@@ -1,7 +1,7 @@
 FROM gliderlabs/alpine:3.3
 
 RUN echo "@edge http://nl.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories && \
-    apk update && apk add curl "postgresql@edge>9.4" && \
+    apk update && apk add curl "postgresql@edge>9.5" && \
     mkdir /docker-entrypoint-initdb.d && \
     apk del curl && \
     rm -rf /var/cache/apk/*
